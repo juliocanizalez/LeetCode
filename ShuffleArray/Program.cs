@@ -1,4 +1,6 @@
-﻿namespace ShuffleArray
+﻿using System;
+
+namespace ShuffleArray
 {
     internal class Program
     {
