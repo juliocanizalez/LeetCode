@@ -7,8 +7,11 @@ namespace ShuffleString
     {
         public static void Main(string[] args)
         {
-            
-        }
+            string input1 = "codeleet";
+            int[] input2 = new[] {4, 5, 6, 7, 0, 2, 1, 3};
+            string output = RestoreString(input1, input2);
+            Console.WriteLine(input1);
+            Console.WriteLine(output);
         
         public static string RestoreString(string s, int[] indices)
         {
