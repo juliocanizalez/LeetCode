@@ -12,7 +12,8 @@ namespace ShuffleString
             string output = RestoreString(input1, input2);
             Console.WriteLine(input1);
             Console.WriteLine(output);
-        
+        }
+
         public static string RestoreString(string s, int[] indices)
         {
             string aux = "";
