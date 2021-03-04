@@ -8,7 +8,17 @@
         
         public static void Main(string[] args)
         {
-            
+            int n = 3;
+            int[] test = new[] {2, 5, 1, 3, 4, 7};
+            int[] result = Shuffle(test, n);
+            string input = "", output = "";
+            for (int i = 0; i < test.Length; i++)
+            {
+                input += $"{test[i]}, {n}";
+                output += $"{result[i]} ";
+            }
+            Console.WriteLine(input);
+            Console.WriteLine(output);
         }
         
         public static int[] Shuffle(int[] nums, int n)
